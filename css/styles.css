@@ -700,6 +700,8 @@ textarea::placeholder {
 .form {
     position: absolute;
     margin: 16px 24px 0 24px;
+    width: 360px;
+    height: 336px;
 }
 
 
@@ -728,11 +730,11 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     border: 1px solid #404bbf;
  }
 
- 
+ /* 2222 */
 
 .button-modal {
     
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
@@ -794,6 +796,8 @@ textarea {
    
 }
 
+
+
 .label-form {
     display: block;
     margin: 8px 0 4px 0;
@@ -811,7 +815,7 @@ textarea {
 
 .form-input:hover,
 .form-input:focus {
-
+fill: #4d5ae5;
     border: 1px solid #4d5ae5;
 }
 
@@ -827,3 +831,7 @@ textarea {
    
 }
 
+.svg-text:hover,
+.svg-text:focus {
+fill: #4d5ae5;
+}
