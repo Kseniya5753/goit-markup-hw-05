@@ -545,19 +545,26 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .subs-le {
     margin-left: auto;
 }
+
+.email-button {
+display: flex;
+margin-left: auto;
+}
+
+
+
 .email-button-sub {
     display: flex;
     margin-left: auto;
 }
 
-.e-b-s {
-    display: flex;
-}
+
 .butt-sub {
     border-radius: 4px;
     width: 165px;
     height: 40px;
     background-color: #4d5ae5;
+    border-radius:4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -566,7 +573,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .butt-sub:hover,
 .butt-sub:focus {
     background-color: #31d0aa;
-    border-radius: 1px solid #31d0aa;
+    
 }
 
 .bst {
@@ -587,23 +594,29 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .email-footer {
-    margin-right: 24px;
-    padding-left: 16px;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
+    margin-left: auto;
+   
     background-color: #2e2f42;  
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 
 
-/* .email-footer:hover,
+
+.email-button {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+.email-footer:hover,
 .email-footer:focus {
    
     border: 1px solid #31d0aa;
-} */
+}
 
 
 textarea::placeholder {
