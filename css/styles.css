@@ -626,6 +626,7 @@ min-width: 165px;
 
 .backdrop {
     position: fixed;
+    padding: 72px 24px 24px 24px;
     top: 0;
     left: 0;
     width: 100%;
@@ -635,7 +636,7 @@ min-width: 165px;
     visibility: hidden;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
+    
 }
 
 .backdrop.is-open {
@@ -644,7 +645,7 @@ min-width: 165px;
     pointer-events: auto;
 }
 
-.modal {
+.window-mod {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -692,21 +693,21 @@ cursor: pointer;
 
 .close:hover,
 .close:focus {
-border: none;
+    border: none;
     fill: #ffffff;
     background-color: #404bbf;
-    border: hidden;
+    /* border: hidden; */
 }
 
 .text-leave {
-    margin: 72px 24px 0 24px;
+    margin-top: 56px;
+    margin-bottom: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    /* margin-bottom: 16px; */
-}
+    }
 
 /* end modal */
 
@@ -902,4 +903,5 @@ textarea::placeholder {
 .button-modal:hover,
 .button-modal:focus {
     background-color: #404bbf;
+    border: none;
 }
