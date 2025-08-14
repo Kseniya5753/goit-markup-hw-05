@@ -646,6 +646,7 @@ min-width: 165px;
 }
 
 .window-mod {
+    
     position: absolute;
     top: 50%;
     left: 50%;
