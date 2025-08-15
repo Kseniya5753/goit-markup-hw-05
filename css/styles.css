@@ -544,6 +544,7 @@ img {
 .email-button-sub {
     display: flex;
     gap: 24px;
+    
 }
 .email-footer {
     width: 264px;
@@ -557,6 +558,7 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+   
 }
 
 .but-footer {
@@ -584,11 +586,9 @@ img {
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.but-footer {
-    margin-left: 16px;
-}
 
 .butt-sub:hover,
 .butt-sub:focus {
@@ -637,7 +637,7 @@ img {
     padding: 72px 24px 24px 24px;
 }
 
-.backdrop:not(is-open) .modal {
+.backdrop:not(.is-open) .modal {
     transform: translate(-50%, -50%) scale(1.5);
 }
 
